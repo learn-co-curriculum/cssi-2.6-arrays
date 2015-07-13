@@ -27,15 +27,15 @@ You can visualize an array as a two-column table where the left column is the in
 
 | Index | Value     |
 |-------|-----------|
-| 0     | "Georgia" |
-| 1     | "Norah"   |
-| 2     | "Joseph"  |
-| 3     | "Nicki"   |
-| 4     | "Rob"     |
+| 0     | "Bread" |
+| 1     | "Cheese"   |
+| 2     | "Milk"  |
+| 3     | "Apples"   |
+| 4     | "Eggs"     |
 
-Notice that the index starts at 0. The first item in an array has index 0, the second has index 1, and so forth. The seventh person in a list would be index 6, the fiftieth would be index 49.
+Notice that the index starts at 0. The first item in an array has index 0, the second has index 1, and so forth. 
 
-One way to think about this is that the computer counts indexes the way we count ages. We start at age '0' and only after our first full year do we turn '1'. In the same way, the first element gets index 0, and the second element gets index 1.
+
 
 We saw this same index numbering when we used methods to identify characters in a string earlier. In fact, you can think of a string like an array of characters.
 
@@ -46,19 +46,20 @@ Let’s initialize an array for our students:
 ["Tamara", "Georgia", "Norah", "Joseph", "Nicki", "Rob"]
 ```
 Square brackets `[ ]` denote the contents of an array. An array can contain any combination of data types.  An array can be stored in a variable just like a number or string.
-You'll notice that we don't write the index of the elements anywhere. The computer automatically makes an index starting at 0 and incrementing by 1 for each element.
+You'll notice that we don't write the index of the elements anywhere. The computer _automatically_ makes an index starting at 0 and incrementing by 1 for each element.
 
 ## Accessing and Modifying Elements
-Now let’s say we need to go shopping to restock the bathroom, so we want to be able to access the different elements in our array. Try this out. What does it do?
+To access an element of an array, just call the name of your array variable and the index that the element is at.
 ```
 >students[3]
+< "Joseph"
 ```
-Why did it return ‘Joseph’ ?
 
-We talked about how to reassign variables earlier. What if we wanted to reassign an element in an array? What if Joseph dropped the class, and instead we had Barry?
+What if we wanted to reassign an element in an array? What if Joseph dropped the class, and instead we had Barry?
 ```
 >students[3] = 'Barry'
 >students[3]
+< "Barry"
 ```
 The array element at index three has been changed!
 
