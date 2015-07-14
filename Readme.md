@@ -63,7 +63,7 @@ What if we wanted to reassign an element in an array? What if Joseph dropped the
 ```
 The array element at index three has been changed!
 
-Just like we got the length for our strings with a string method, we can also get the length of an array. Every array has a property that is it's length, which we can access with the '.'
+Just like we got the length for our strings with a string method, we can also get the length of an array. Every array has a property that is its length, which we can access with the '.'
 ```
 >console.log(students.length);
 ```
