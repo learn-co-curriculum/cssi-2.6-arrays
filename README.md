@@ -78,3 +78,5 @@ var lastName = names.pop()
 `pop` will remove the last item in an array and return it. Since we just added "Alfred" to the end, that is what names.pop() returns.
 
 Here are some other cool methods to experiment with: .sort(), .splice(), .split()
+
+<a href='https://learn.co/lessons/cssi-2.6-arrays' data-visibility='hidden'>View this lesson on Learn.co</a>
